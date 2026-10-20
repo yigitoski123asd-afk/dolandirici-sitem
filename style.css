@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #88aea9;
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding-top: 40px;
+}
+
+.top-banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #d9534f;
+    color: white;
+    text-align: center;
+    padding: 8px;
+    font-size: 0.85rem;
+    font-weight: bold;
+    z-index: 1000;
+}
+
+.container {
+    width: 85%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.header {
+    background-color: #cc99c4;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    border: 2px solid #b37fa9;
+}
+
+.layout {
+    display: flex;
+    gap: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #f0e6f2;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar li {
+    margin-bottom: 8px;
+}
+
+.sidebar a {
+    color: #785b7b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    flex: 2;
+    background-color: #785b7b;
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.prize-card {
+    position: relative;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #e67e22;
+    color: white;
+    padding: 4px 8px;
+    font-size: 0.75rem;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.prize-img {
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+.specs-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    color: #333;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.specs-table th, .specs-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.specs-table th {
+    background-color: #cc99c4;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 0.85rem;
+}
